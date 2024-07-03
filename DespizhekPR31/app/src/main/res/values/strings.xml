@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DespizhekPR31</string>
+    <string name="name">Геометрический калькулятор</string>
+    <string name="changeShape">Выбор фигуры</string>
+    <string name="login">Введите логин</string>
+    <string name="pass">Введите пароль</string>
+    <string name="calculate">Выполнить расчет</string>
+    <string name="result">Результат вычисления</string>
+    <string name="shapeIt">Выберите фигуру</string>
+    <string name="dataoftext">Введите данные для расчета</string>
+    <string name="nameofshape">Название выбранной фигуры</string>
+    <string name="res">Результат</string>
+    <string name="reg">Регистрация</string>
+    <string-array name="shapeArray">
+        <item>Выберите фигуру</item>
+        <item>Круг</item>
+        <item>Треугольник</item>
+    </string-array>
+</resources>

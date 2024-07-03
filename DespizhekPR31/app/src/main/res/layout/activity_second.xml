@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/changeShape"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:id="@+id/imageShape"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/iconapp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerShape"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittextback"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColorHint="@color/gray"
+        android:entries="@array/shapeArray"
+        />
+
+    <EditText
+        android:id="@+id/dataText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittextback"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="@string/dataoftext"
+        android:textColorHint="@color/gray"
+        />
+
+    <EditText
+        android:id="@+id/dataText2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittextback"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="@string/dataoftext"
+        android:textColorHint="@color/gray"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculateButton"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:text="@string/calculate"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
